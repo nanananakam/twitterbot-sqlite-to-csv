@@ -29,6 +29,7 @@ func main() {
 	defer csvFile.Close()
 
 	csvWriter := csv.NewWriter(csvFile)
+	csvWriter.UseCRLF = true
 
 	var tweets []Tweet
 
