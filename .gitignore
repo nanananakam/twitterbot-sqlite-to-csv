@@ -1,0 +1,5 @@
+.idea/
+*.iml
+tweets.csv
+tweets.db
+go.sum
